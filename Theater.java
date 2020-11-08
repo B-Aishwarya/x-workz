@@ -1,4 +1,0 @@
-public enum Theater
-{
-	NARTAKI,PVR,CINIPOLIS,MENAKA,SUJATA
-}
