@@ -1,0 +1,45 @@
+package com.xworkz.constructor;
+
+public class Temple {
+	private String name;
+	private String prasada;
+	private String location;
+	private float  openTime;
+	private float closeTime;
+	
+	public Temple (String name, String location, String prasada, float opentime, float closeTime)
+	{
+		System.out.println("created Temple");
+		this.name=name;
+		this.prasada=prasada;
+		this.location=location;
+		this.openTime=openTime;
+		this.closeTime=closeTime;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	float getOpenTime() {
+		return openTime;
+	}
+
+	public String getPrasada() {
+		return prasada;
+	}
+
+	float getCloseTime() {
+		return closeTime;
+	}
+
+	public void setPrasada(String prasada) {
+		this.prasada = prasada;
+		System.out.println("updated prasada is "+prasada);
+	}
+
+}
