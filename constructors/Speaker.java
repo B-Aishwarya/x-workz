@@ -52,8 +52,18 @@ public class Speaker {
 	
 	public void decreaseVolume()
 	{
-		
-	}
+	             if(this.connected==true) {
+		      if(this.currentVolume>this.minVolumeLevel) {
+			this.currentVolume=this.currentVolume-1;
+          		System.out.println("current volume is: "+this.currentVolume);
+				}
+				else{
+					System.out.println(" minimum volume reached");
+				
+				}
+			}
+		}
+	
 
 	public int getBatteryBackupInhours() {
 		return batteryBackupInhours;
