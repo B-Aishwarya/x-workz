@@ -16,6 +16,13 @@ public class SpeakerTester {
 		speaker.increaseVolume();
 		speaker.increaseVolume();
 		
+		speaker.decreaseVolume();
+		speaker.decreaseVolume();
+		speaker.decreaseVolume();
+		speaker.decreaseVolume();
+		speaker.decreaseVolume();
+		
+		
 
 }
 }
